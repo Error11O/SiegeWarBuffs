@@ -1,0 +1,10 @@
+name: SwBuffs
+version: '1.0-SNAPSHOT'
+main: dev.Error110.swBuffs.SwBuffs
+api-version: '1.21'
+depend:
+  - MCKotlin-Paper
+commands:
+  buffvote:
+    usage: /<command> <vote>
+    description: yay buff voting
